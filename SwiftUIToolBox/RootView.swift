@@ -7,6 +7,9 @@ struct RootView: View {
                 NavigationLink(destination: ViewWithInputField().environmentObject(KeyboardObserver())) {
                     Text("Handle Keyboard")
                 }
+                NavigationLink(destination: CardView(content: .demo)) {
+                    Text("Expandable Cards")
+                }
             }
                 .navigationBarTitle(Text("OAO"))
         }

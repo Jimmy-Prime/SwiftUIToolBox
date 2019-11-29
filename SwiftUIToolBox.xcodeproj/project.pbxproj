@@ -15,6 +15,8 @@
 		4B49A4C52390C03B004355AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B49A4C32390C03B004355AB /* LaunchScreen.storyboard */; };
 		4B6D07DD2390C1D800190CF8 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D07DC2390C1D800190CF8 /* KeyboardObserver.swift */; };
 		4B6D07E02390C27D00190CF8 /* ViewWithInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D07DF2390C27D00190CF8 /* ViewWithInputField.swift */; };
+		4B6D07E42390CBDB00190CF8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D07E32390CBDB00190CF8 /* CardView.swift */; };
+		4B97E74A2391010A008C94E7 /* CardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B97E7492391010A008C94E7 /* CardContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		4B49A4C62390C03B004355AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B6D07DC2390C1D800190CF8 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		4B6D07DF2390C27D00190CF8 /* ViewWithInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWithInputField.swift; sourceTree = "<group>"; };
+		4B6D07E32390CBDB00190CF8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4B97E7492391010A008C94E7 /* CardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 		4B49A4B72390C039004355AB /* SwiftUIToolBox */ = {
 			isa = PBXGroup;
 			children = (
+				4B97E748239100ED008C94E7 /* Expandable Cards */,
 				4B6D07DE2390C1DC00190CF8 /* Handle Keyboard */,
 				4B49A4C02390C03B004355AB /* Preview Content */,
 				4B49A4B82390C039004355AB /* AppDelegate.swift */,
@@ -87,6 +92,15 @@
 				4B6D07DF2390C27D00190CF8 /* ViewWithInputField.swift */,
 			);
 			path = "Handle Keyboard";
+			sourceTree = "<group>";
+		};
+		4B97E748239100ED008C94E7 /* Expandable Cards */ = {
+			isa = PBXGroup;
+			children = (
+				4B97E7492391010A008C94E7 /* CardContent.swift */,
+				4B6D07E32390CBDB00190CF8 /* CardView.swift */,
+			);
+			path = "Expandable Cards";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +175,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B49A4B92390C039004355AB /* AppDelegate.swift in Sources */,
+				4B97E74A2391010A008C94E7 /* CardContent.swift in Sources */,
+				4B6D07E42390CBDB00190CF8 /* CardView.swift in Sources */,
 				4B6D07DD2390C1D800190CF8 /* KeyboardObserver.swift in Sources */,
 				4B49A4BD2390C039004355AB /* RootView.swift in Sources */,
 				4B49A4BB2390C039004355AB /* SceneDelegate.swift in Sources */,
