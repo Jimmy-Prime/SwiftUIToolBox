@@ -34,8 +34,8 @@ struct PlayerView: View {
                     .aspectRatio(contentMode: .fill)
                     .cornerRadius(isPlaying ? 150 : 0)
                     .frame(
-                        width: isPlaying ? 300 : UIScreen.main.bounds.width,
-                        height: 300
+                        maxWidth: isPlaying ? 300 : .infinity,
+                        maxHeight: 300
                 )
                     .clipped()
                     .rotationEffect(Angle(degrees: rotate ? 0 : 360))

@@ -39,6 +39,7 @@
 		4B6D07DC2390C1D800190CF8 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		4B6D07DF2390C27D00190CF8 /* ViewWithInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWithInputField.swift; sourceTree = "<group>"; };
 		4B6D07E32390CBDB00190CF8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4B75A270239A647F0069A2E9 /* SwiftUIToolBox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIToolBox.entitlements; sourceTree = "<group>"; };
 		4B97E7492391010A008C94E7 /* CardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContent.swift; sourceTree = "<group>"; };
 		4BE22AAD239A377500F587E4 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		4BE22AAF239A379600F587E4 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 		4B49A4B72390C039004355AB /* SwiftUIToolBox */ = {
 			isa = PBXGroup;
 			children = (
+				4B75A270239A647F0069A2E9 /* SwiftUIToolBox.entitlements */,
 				4B97E748239100ED008C94E7 /* Expandable Cards */,
 				4B6D07DE2390C1DC00190CF8 /* Handle Keyboard */,
 				4B49A4C02390C03B004355AB /* Preview Content */,
@@ -356,7 +358,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIToolBox/SwiftUIToolBox.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIToolBox/Preview Content\"";
 				DEVELOPMENT_TEAM = KJP5VZ2QJA;
 				ENABLE_PREVIEWS = YES;
@@ -368,6 +372,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.prime.SwiftUIToolBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -377,7 +382,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIToolBox/SwiftUIToolBox.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIToolBox/Preview Content\"";
 				DEVELOPMENT_TEAM = KJP5VZ2QJA;
 				ENABLE_PREVIEWS = YES;
@@ -389,6 +396,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.prime.SwiftUIToolBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
