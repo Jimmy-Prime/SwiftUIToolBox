@@ -17,6 +17,14 @@
 		4B6D07E02390C27D00190CF8 /* ViewWithInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D07DF2390C27D00190CF8 /* ViewWithInputField.swift */; };
 		4B6D07E42390CBDB00190CF8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D07E32390CBDB00190CF8 /* CardView.swift */; };
 		4B97E74A2391010A008C94E7 /* CardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B97E7492391010A008C94E7 /* CardContent.swift */; };
+		4BE22AAE239A377500F587E4 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE22AAD239A377500F587E4 /* Loader.swift */; };
+		4BE22AB0239A379600F587E4 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE22AAF239A379600F587E4 /* Track.swift */; };
+		4BE22AB2239A37B900F587E4 /* TrackListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE22AB1239A37B900F587E4 /* TrackListHeaderView.swift */; };
+		4BE22AB4239A37D300F587E4 /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE22AB3239A37D300F587E4 /* TrackView.swift */; };
+		4BE22AB6239A37E900F587E4 /* TrackTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE22AB5239A37E900F587E4 /* TrackTitleView.swift */; };
+		4BE22AB8239A380300F587E4 /* PlayerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE22AB7239A380300F587E4 /* PlayerControlView.swift */; };
+		4BE22ABA239A382100F587E4 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE22AB9239A382100F587E4 /* PlayerView.swift */; };
+		4BE22ABD239A387F00F587E4 /* meta.json in Resources */ = {isa = PBXBuildFile; fileRef = 4BE22ABC239A387F00F587E4 /* meta.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +40,14 @@
 		4B6D07DF2390C27D00190CF8 /* ViewWithInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWithInputField.swift; sourceTree = "<group>"; };
 		4B6D07E32390CBDB00190CF8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		4B97E7492391010A008C94E7 /* CardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContent.swift; sourceTree = "<group>"; };
+		4BE22AAD239A377500F587E4 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		4BE22AAF239A379600F587E4 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		4BE22AB1239A37B900F587E4 /* TrackListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListHeaderView.swift; sourceTree = "<group>"; };
+		4BE22AB3239A37D300F587E4 /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
+		4BE22AB5239A37E900F587E4 /* TrackTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTitleView.swift; sourceTree = "<group>"; };
+		4BE22AB7239A380300F587E4 /* PlayerControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlView.swift; sourceTree = "<group>"; };
+		4BE22AB9239A382100F587E4 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		4BE22ABC239A387F00F587E4 /* meta.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = meta.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +83,12 @@
 				4B97E748239100ED008C94E7 /* Expandable Cards */,
 				4B6D07DE2390C1DC00190CF8 /* Handle Keyboard */,
 				4B49A4C02390C03B004355AB /* Preview Content */,
+				4BE22ABB239A384000F587E4 /* Transition Animation */,
 				4B49A4B82390C039004355AB /* AppDelegate.swift */,
 				4B49A4BE2390C03B004355AB /* Assets.xcassets */,
 				4B49A4C62390C03B004355AB /* Info.plist */,
 				4B49A4C32390C03B004355AB /* LaunchScreen.storyboard */,
+				4BE22AAD239A377500F587E4 /* Loader.swift */,
 				4B49A4BC2390C039004355AB /* RootView.swift */,
 				4B49A4BA2390C039004355AB /* SceneDelegate.swift */,
 			);
@@ -101,6 +119,20 @@
 				4B6D07E32390CBDB00190CF8 /* CardView.swift */,
 			);
 			path = "Expandable Cards";
+			sourceTree = "<group>";
+		};
+		4BE22ABB239A384000F587E4 /* Transition Animation */ = {
+			isa = PBXGroup;
+			children = (
+				4BE22ABC239A387F00F587E4 /* meta.json */,
+				4BE22AB7239A380300F587E4 /* PlayerControlView.swift */,
+				4BE22AB9239A382100F587E4 /* PlayerView.swift */,
+				4BE22AAF239A379600F587E4 /* Track.swift */,
+				4BE22AB1239A37B900F587E4 /* TrackListHeaderView.swift */,
+				4BE22AB5239A37E900F587E4 /* TrackTitleView.swift */,
+				4BE22AB3239A37D300F587E4 /* TrackView.swift */,
+			);
+			path = "Transition Animation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +195,7 @@
 			files = (
 				4B49A4BF2390C03B004355AB /* Assets.xcassets in Resources */,
 				4B49A4C52390C03B004355AB /* LaunchScreen.storyboard in Resources */,
+				4BE22ABD239A387F00F587E4 /* meta.json in Resources */,
 				4B49A4C22390C03B004355AB /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,8 +211,15 @@
 				4B97E74A2391010A008C94E7 /* CardContent.swift in Sources */,
 				4B6D07E42390CBDB00190CF8 /* CardView.swift in Sources */,
 				4B6D07DD2390C1D800190CF8 /* KeyboardObserver.swift in Sources */,
+				4BE22AAE239A377500F587E4 /* Loader.swift in Sources */,
+				4BE22AB8239A380300F587E4 /* PlayerControlView.swift in Sources */,
+				4BE22ABA239A382100F587E4 /* PlayerView.swift in Sources */,
 				4B49A4BD2390C039004355AB /* RootView.swift in Sources */,
 				4B49A4BB2390C039004355AB /* SceneDelegate.swift in Sources */,
+				4BE22AB0239A379600F587E4 /* Track.swift in Sources */,
+				4BE22AB2239A37B900F587E4 /* TrackListHeaderView.swift in Sources */,
+				4BE22AB6239A37E900F587E4 /* TrackTitleView.swift in Sources */,
+				4BE22AB4239A37D300F587E4 /* TrackView.swift in Sources */,
 				4B6D07E02390C27D00190CF8 /* ViewWithInputField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
