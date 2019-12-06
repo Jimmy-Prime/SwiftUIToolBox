@@ -1,5 +1,3 @@
-import Foundation
-
 struct CardContent: Identifiable {
     let title: String
     let description: String
