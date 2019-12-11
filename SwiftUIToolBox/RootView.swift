@@ -13,6 +13,9 @@ struct RootView: View {
                 NavigationLink(destination: PlayerView()) {
                     Text("Transition Animation")
                 }
+                NavigationLink(destination: EQView().environmentObject(AudioEngine())) {
+                    Text("Audio Equalizer")
+                }
             }
                 .navigationBarTitle(Text("OAO"))
         }

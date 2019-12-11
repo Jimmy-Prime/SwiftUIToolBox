@@ -13,9 +13,13 @@
 		4B49A4BF2390C03B004355AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B49A4BE2390C03B004355AB /* Assets.xcassets */; };
 		4B49A4C22390C03B004355AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B49A4C12390C03B004355AB /* Preview Assets.xcassets */; };
 		4B49A4C52390C03B004355AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B49A4C32390C03B004355AB /* LaunchScreen.storyboard */; };
+		4B4EDCB9239F912700D720AD /* ConditionalModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EDCB8239F912700D720AD /* ConditionalModifier.swift */; };
 		4B6D07DD2390C1D800190CF8 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D07DC2390C1D800190CF8 /* KeyboardObserver.swift */; };
 		4B6D07E02390C27D00190CF8 /* ViewWithInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D07DF2390C27D00190CF8 /* ViewWithInputField.swift */; };
 		4B6D07E42390CBDB00190CF8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D07E32390CBDB00190CF8 /* CardView.swift */; };
+		4B8B8C9D23A0B67500CA781B /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B8C9C23A0B67500CA781B /* AudioEngine.swift */; };
+		4B8B8CA023A0B79D00CA781B /* EQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B8C9F23A0B79D00CA781B /* EQView.swift */; };
+		4B8B8CA223A0B89F00CA781B /* fade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B8B8CA123A0B89F00CA781B /* fade.mp3 */; };
 		4B97E74A2391010A008C94E7 /* CardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B97E7492391010A008C94E7 /* CardContent.swift */; };
 		4BE22AAE239A377500F587E4 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE22AAD239A377500F587E4 /* Loader.swift */; };
 		4BE22AB0239A379600F587E4 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE22AAF239A379600F587E4 /* Track.swift */; };
@@ -36,10 +40,14 @@
 		4B49A4C12390C03B004355AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4B49A4C42390C03B004355AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B49A4C62390C03B004355AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4EDCB8239F912700D720AD /* ConditionalModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalModifier.swift; sourceTree = "<group>"; };
 		4B6D07DC2390C1D800190CF8 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		4B6D07DF2390C27D00190CF8 /* ViewWithInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWithInputField.swift; sourceTree = "<group>"; };
 		4B6D07E32390CBDB00190CF8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		4B75A270239A647F0069A2E9 /* SwiftUIToolBox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIToolBox.entitlements; sourceTree = "<group>"; };
+		4B8B8C9C23A0B67500CA781B /* AudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		4B8B8C9F23A0B79D00CA781B /* EQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EQView.swift; sourceTree = "<group>"; };
+		4B8B8CA123A0B89F00CA781B /* fade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fade.mp3; sourceTree = "<group>"; };
 		4B97E7492391010A008C94E7 /* CardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContent.swift; sourceTree = "<group>"; };
 		4BE22AAD239A377500F587E4 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		4BE22AAF239A379600F587E4 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
@@ -81,18 +89,20 @@
 		4B49A4B72390C039004355AB /* SwiftUIToolBox */ = {
 			isa = PBXGroup;
 			children = (
-				4B75A270239A647F0069A2E9 /* SwiftUIToolBox.entitlements */,
+				4B8B8C9E23A0B6A700CA781B /* Audio Equalizer */,
 				4B97E748239100ED008C94E7 /* Expandable Cards */,
 				4B6D07DE2390C1DC00190CF8 /* Handle Keyboard */,
 				4B49A4C02390C03B004355AB /* Preview Content */,
 				4BE22ABB239A384000F587E4 /* Transition Animation */,
 				4B49A4B82390C039004355AB /* AppDelegate.swift */,
 				4B49A4BE2390C03B004355AB /* Assets.xcassets */,
+				4B4EDCB8239F912700D720AD /* ConditionalModifier.swift */,
 				4B49A4C62390C03B004355AB /* Info.plist */,
 				4B49A4C32390C03B004355AB /* LaunchScreen.storyboard */,
 				4BE22AAD239A377500F587E4 /* Loader.swift */,
 				4B49A4BC2390C039004355AB /* RootView.swift */,
 				4B49A4BA2390C039004355AB /* SceneDelegate.swift */,
+				4B75A270239A647F0069A2E9 /* SwiftUIToolBox.entitlements */,
 			);
 			path = SwiftUIToolBox;
 			sourceTree = "<group>";
@@ -112,6 +122,16 @@
 				4B6D07DF2390C27D00190CF8 /* ViewWithInputField.swift */,
 			);
 			path = "Handle Keyboard";
+			sourceTree = "<group>";
+		};
+		4B8B8C9E23A0B6A700CA781B /* Audio Equalizer */ = {
+			isa = PBXGroup;
+			children = (
+				4B8B8CA123A0B89F00CA781B /* fade.mp3 */,
+				4B8B8C9C23A0B67500CA781B /* AudioEngine.swift */,
+				4B8B8C9F23A0B79D00CA781B /* EQView.swift */,
+			);
+			path = "Audio Equalizer";
 			sourceTree = "<group>";
 		};
 		4B97E748239100ED008C94E7 /* Expandable Cards */ = {
@@ -199,6 +219,7 @@
 				4B49A4C52390C03B004355AB /* LaunchScreen.storyboard in Resources */,
 				4BE22ABD239A387F00F587E4 /* meta.json in Resources */,
 				4B49A4C22390C03B004355AB /* Preview Assets.xcassets in Resources */,
+				4B8B8CA223A0B89F00CA781B /* fade.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +231,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B49A4B92390C039004355AB /* AppDelegate.swift in Sources */,
+				4B8B8C9D23A0B67500CA781B /* AudioEngine.swift in Sources */,
 				4B97E74A2391010A008C94E7 /* CardContent.swift in Sources */,
 				4B6D07E42390CBDB00190CF8 /* CardView.swift in Sources */,
+				4B4EDCB9239F912700D720AD /* ConditionalModifier.swift in Sources */,
+				4B8B8CA023A0B79D00CA781B /* EQView.swift in Sources */,
 				4B6D07DD2390C1D800190CF8 /* KeyboardObserver.swift in Sources */,
 				4BE22AAE239A377500F587E4 /* Loader.swift in Sources */,
 				4BE22AB8239A380300F587E4 /* PlayerControlView.swift in Sources */,
