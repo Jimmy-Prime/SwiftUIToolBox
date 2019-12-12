@@ -20,7 +20,7 @@ This is a simplified implementation of [this dribbble shot](https://dribbble.com
 
 Demonstrate complex animation can be done in SwiftUI.
 
-![image](https://github.com/Jimmy-Lee/SwiftUIToolBox/blob/preview_images/README%20images/Transition%Animation.gif)
+![image](https://github.com/Jimmy-Lee/SwiftUIToolBox/blob/preview_images/README%20images/Transition%20Animation.gif)
 
 ## Audio Equalizer
 
