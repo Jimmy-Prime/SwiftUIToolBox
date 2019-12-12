@@ -6,13 +6,13 @@ Collection of my SwiftUI experiments and findings.
 
 Show a way to handle keyboard event with an environment object. Check [Responding to Keyboard in SwiftUI](https://github.com/Jimmy-Lee/Notes/blob/master/Notes/Responding%20to%20Keyboard%20in%20SwiftUI.md) for more details.
 
-![image](https://github.com/Jimmy-Lee/SwiftUIToolBox/README%20images/Handle%20Keyboard.gif)
+![image](https://github.com/Jimmy-Lee/SwiftUIToolBox/blob/preview_images/README%20images/Handle%20Keyboard.gif)
 
 ## Expandable Cards
 
 Demonstrate simple animation that was hard in UIKit, but quite simple in SwiftUI.
 
-![image](https://github.com/Jimmy-Lee/SwiftUIToolBox/README%20images/Expandable%20Card.gif)
+![image](https://github.com/Jimmy-Lee/SwiftUIToolBox/blob/preview_images/README%20images/Expandable%20Card.gif)
 
 ## Transition Animation
 
@@ -20,7 +20,7 @@ This is a simplified implementation of [this dribbble shot](https://dribbble.com
 
 Demonstrate complex animation can be done in SwiftUI.
 
-![image](https://github.com/Jimmy-Lee/SwiftUIToolBox/README%20images/Transition%Animation.gif)
+![image](https://github.com/Jimmy-Lee/SwiftUIToolBox/blob/preview_images/README%20images/Transition%Animation.gif)
 
 ## Audio Equalizer
 
