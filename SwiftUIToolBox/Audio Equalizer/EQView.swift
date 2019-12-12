@@ -41,5 +41,6 @@ struct EQView: View {
 struct EQView_Previews: PreviewProvider {
     static var previews: some View {
         EQView()
+            .environmentObject(AudioEngine())
     }
 }
