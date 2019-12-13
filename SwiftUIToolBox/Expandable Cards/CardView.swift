@@ -32,14 +32,11 @@ struct CardView: View {
             }
         }
             .clipped()
-            .gesture(
-                TapGesture()
-                    .onEnded {
-                        withAnimation {
-                            self.expand.toggle()
-                        }
+            .onTapGesture {
+                withAnimation {
+                    self.expand.toggle()
                 }
-            )
+            }
             .navigationBarTitle(Text("Expandable Cards"), displayMode: .inline)
     }
 }

@@ -16,6 +16,9 @@ struct RootView: View {
                 NavigationLink(destination: EQView().environmentObject(AudioEngine())) {
                     Text("Audio Equalizer")
                 }
+                NavigationLink(destination: ChatInputView()) {
+                    Text("Photos and Permission")
+                }
             }
                 .navigationBarTitle(Text("OAO"))
         }

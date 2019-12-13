@@ -21,6 +21,8 @@
 		4B8B8CA023A0B79D00CA781B /* EQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B8C9F23A0B79D00CA781B /* EQView.swift */; };
 		4B8B8CA223A0B89F00CA781B /* fade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B8B8CA123A0B89F00CA781B /* fade.mp3 */; };
 		4B97E74A2391010A008C94E7 /* CardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B97E7492391010A008C94E7 /* CardContent.swift */; };
+		4B9F2FD323A384B500B68AB3 /* PhotoPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9F2FD223A384B500B68AB3 /* PhotoPanel.swift */; };
+		4B9F2FD523A384E200B68AB3 /* ChatInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9F2FD423A384E200B68AB3 /* ChatInputView.swift */; };
 		4BE22AAE239A377500F587E4 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE22AAD239A377500F587E4 /* Loader.swift */; };
 		4BE22AB0239A379600F587E4 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE22AAF239A379600F587E4 /* Track.swift */; };
 		4BE22AB2239A37B900F587E4 /* TrackListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE22AB1239A37B900F587E4 /* TrackListHeaderView.swift */; };
@@ -49,6 +51,8 @@
 		4B8B8C9F23A0B79D00CA781B /* EQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EQView.swift; sourceTree = "<group>"; };
 		4B8B8CA123A0B89F00CA781B /* fade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fade.mp3; sourceTree = "<group>"; };
 		4B97E7492391010A008C94E7 /* CardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContent.swift; sourceTree = "<group>"; };
+		4B9F2FD223A384B500B68AB3 /* PhotoPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPanel.swift; sourceTree = "<group>"; };
+		4B9F2FD423A384E200B68AB3 /* ChatInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputView.swift; sourceTree = "<group>"; };
 		4BE22AAD239A377500F587E4 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		4BE22AAF239A379600F587E4 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		4BE22AB1239A37B900F587E4 /* TrackListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListHeaderView.swift; sourceTree = "<group>"; };
@@ -92,6 +96,7 @@
 				4B8B8C9E23A0B6A700CA781B /* Audio Equalizer */,
 				4B97E748239100ED008C94E7 /* Expandable Cards */,
 				4B6D07DE2390C1DC00190CF8 /* Handle Keyboard */,
+				4B9F2FD623A384F500B68AB3 /* Photos and Permission */,
 				4B49A4C02390C03B004355AB /* Preview Content */,
 				4BE22ABB239A384000F587E4 /* Transition Animation */,
 				4B49A4B82390C039004355AB /* AppDelegate.swift */,
@@ -127,9 +132,9 @@
 		4B8B8C9E23A0B6A700CA781B /* Audio Equalizer */ = {
 			isa = PBXGroup;
 			children = (
-				4B8B8CA123A0B89F00CA781B /* fade.mp3 */,
 				4B8B8C9C23A0B67500CA781B /* AudioEngine.swift */,
 				4B8B8C9F23A0B79D00CA781B /* EQView.swift */,
+				4B8B8CA123A0B89F00CA781B /* fade.mp3 */,
 			);
 			path = "Audio Equalizer";
 			sourceTree = "<group>";
@@ -141,6 +146,15 @@
 				4B6D07E32390CBDB00190CF8 /* CardView.swift */,
 			);
 			path = "Expandable Cards";
+			sourceTree = "<group>";
+		};
+		4B9F2FD623A384F500B68AB3 /* Photos and Permission */ = {
+			isa = PBXGroup;
+			children = (
+				4B9F2FD423A384E200B68AB3 /* ChatInputView.swift */,
+				4B9F2FD223A384B500B68AB3 /* PhotoPanel.swift */,
+			);
+			path = "Photos and Permission";
 			sourceTree = "<group>";
 		};
 		4BE22ABB239A384000F587E4 /* Transition Animation */ = {
@@ -216,10 +230,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B49A4BF2390C03B004355AB /* Assets.xcassets in Resources */,
+				4B8B8CA223A0B89F00CA781B /* fade.mp3 in Resources */,
 				4B49A4C52390C03B004355AB /* LaunchScreen.storyboard in Resources */,
 				4BE22ABD239A387F00F587E4 /* meta.json in Resources */,
 				4B49A4C22390C03B004355AB /* Preview Assets.xcassets in Resources */,
-				4B8B8CA223A0B89F00CA781B /* fade.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,8 +250,10 @@
 				4B6D07E42390CBDB00190CF8 /* CardView.swift in Sources */,
 				4B4EDCB9239F912700D720AD /* ConditionalModifier.swift in Sources */,
 				4B8B8CA023A0B79D00CA781B /* EQView.swift in Sources */,
+				4B9F2FD523A384E200B68AB3 /* ChatInputView.swift in Sources */,
 				4B6D07DD2390C1D800190CF8 /* KeyboardObserver.swift in Sources */,
 				4BE22AAE239A377500F587E4 /* Loader.swift in Sources */,
+				4B9F2FD323A384B500B68AB3 /* PhotoPanel.swift in Sources */,
 				4BE22AB8239A380300F587E4 /* PlayerControlView.swift in Sources */,
 				4BE22ABA239A382100F587E4 /* PlayerView.swift in Sources */,
 				4B49A4BD2390C039004355AB /* RootView.swift in Sources */,

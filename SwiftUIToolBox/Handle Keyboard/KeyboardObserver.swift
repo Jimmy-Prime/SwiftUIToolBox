@@ -28,8 +28,8 @@ class KeyboardObserver: ObservableObject {
                 } else {
                     return .init(height: 0, duration: duration)
                 }
-        }
-        .assign(to: \.dockedKeyboardProperty, on: self)
+            }
+            .assign(to: \.dockedKeyboardProperty, on: self)
     }
 
     deinit {

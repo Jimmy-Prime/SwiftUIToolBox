@@ -25,3 +25,15 @@ Demonstrate complex animation can be done in SwiftUI.
 ## Audio Equalizer
 
 Set equalizer parameters through a @Binding, control equalizer on the fly in SwiftUI.
+
+## Photos and Permission
+
+Demonstrate a method to handle `PHAuthorizationStatus`
+
+If app is authorized, display photos.
+
+If app has never prompted permission request, prompt it.
+
+Otherwise, show Settings link
+
+![image](https://github.com/Jimmy-Lee/SwiftUIToolBox/blob/master/README%20images/Photos%20and%20Permission.gif)
